@@ -1,0 +1,33 @@
+input
+    placeholder: Goi y xem o day nhap cai gi
+    value: gias tri se dc dien mac dinh
+    name:
+        ten cua input
+    type:
+        text: type mac dinh
+        password: hien thi * thay vi raw value
+        number: nhap so
+        email: nhapj email, check co @ ko
+        submit: nut bam, khi bam vao day thi verify dc email
+
+form:
+    method: phuong thuc (po
+    st/get/put/patch)
+    action: hanh dong
+
+dieu kien:
+    - the form phai co action + method neu ko truyen method -> mac dinh la method get
+    - input type la submit
+
+Hanh dong:
+    - Khi bam nut submit thi du lieu se gui den link trong action voi methd da dc dinh
+
+get: du lieu dc gui qua url -> limit
+    han che :
+        - limit
+        - kem bao mat hon
+post /put/patch: du lieu dc gui ko qua url4
+
+select-option
+    hien thi 1 danh sach chon san
+    neu co option ko co value thi value se la txt hien thi trong 
